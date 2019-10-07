@@ -1,0 +1,100 @@
+/*Google fonts*/
+@import 'https://fonts.googleapis.com/css?family=Dosis|Roboto:300,400';
+
+
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #87613d;
+  margin-bottom: 40px;
+}
+
+form {
+  max-width: 30em;
+  margin: 4em auto;
+  position: relative;
+  background: #ffffff;
+  padding: 2em 3em;
+  text-align: center;
+  border-radius: 5px;
+  padding: 30px 20px 0 20px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+form h1 {
+    font-family: 'Dosis';
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #87613d;
+  margin-bottom: 30px;
+
+
+}
+
+form input[type=text]::placeholder {
+   font-family: 'Roboto';
+  color: #ff7d00;
+}
+
+form .data {
+  margin-top: 1em;
+  text-align: center;
+}
+
+form .data li {
+ 
+
+  padding: 1em;
+  margin: 1em auto;
+  color: #ff7d00;
+ font-family: 'Roboto';
+}
+
+form .data li i {
+  float: right;
+  color: #87613d;
+  cursor: pointer;
+}
+
+form .input-group-text {
+  background: #F97300;
+  width: 2.8em;
+  height: 2.8em;
+  padding: 1em 9px;
+  color: #fff;
+  position: absolute;
+  right: 25px;
+  cursor: pointer;
+}
+
+form .input-group-text i {
+  font-size: 1.5em;
+}
+
+form .form-control {
+  border: none;
+  border-bottom: 1px solid #ffc185;
+  width: 88%;
+  font-family: 'Roboto';
+  color: #ff7d00;
+  text-align: center;
+  font-size: 21px;
+  font-weight:100;
+  margin-bottom:25px;
+}
+
+form .form-control:focus {
+  border: 1px solid #ffc185;
+}
